@@ -54,6 +54,13 @@ main .img {
 
   width: 20rem;
   height: 20rem;
+
+  transition: .5s;
+}
+
+main .img:not(:hover) {
+  opacity: 0.9;
+  scale: 0.99;
 }
 
 main h4 {
